@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main (){
+
+	var point = 6
+
+	switch point{
+	case 8:
+		fmt.Println("perfect")
+	case 7:
+		fmt.Println("awesome")
+	case 6:
+		fmt.Println("not bad")
+	default:
+		fmt.Println("try again")
+	}
+
+}
